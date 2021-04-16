@@ -2,13 +2,7 @@
   <div id="app">
     <main>
       <div class="search-box">
-        <input
-          type="text"
-          name=""
-          id=""
-          class="search-bar"
-          placeholder="Search..."
-        />
+        <input type="text" class="search-bar" placeholder="Search..." />
       </div>
     </main>
   </div>
@@ -26,17 +20,17 @@ export default {
 </script>
 
 <style>
-#app {
-  background-image: url("./assets/cold-bg.jpg");
-  background-size: cover;
-  background-position: bottom;
-  transition: 0.4%;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+#app {
+  background-image: url("./assets/cold-bg.jpg");
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4s;
 }
 
 body {
@@ -69,5 +63,11 @@ main {
   outline: none;
   background: none;
   background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  transition: 0.4s;
+}
+
+.search-box .search-bar:focus {
+  background-color: rgba(255, 255, 255, 0.75);
 }
 </style>
