@@ -12,7 +12,7 @@
         </div>
         <div class="weather-box">
           <div class="temp">52°F</div>
-          <div class="weather">Rain</div>
+          <div class="weather-status">Rain</div>
         </div>
       </div>
     </main>
@@ -50,7 +50,7 @@ body {
 
 main {
   min-height: 100vh;
-  padding: 25%;
+  padding: 25px;
   background-image: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.25),
@@ -84,7 +84,7 @@ main {
   background-color: rgba(255, 255, 255, 0.75);
 }
 
-.location {
+.location-box .location {
   color: #fff;
   font-size: 32px;
   font-weight: 500;
@@ -92,7 +92,7 @@ main {
   text-shadow: 1px 3px rgba(0, 0, 0, 0.25);
 }
 
-.date {
+.location-box .date {
   color: #fff;
   font-size: 20px;
   font-weight: 300;
@@ -100,19 +100,31 @@ main {
   text-align: center;
 }
 
-.temp {
-  color: #fff;
-  font-size: 20px;
-  font-weight: 300;
-  font-style: italic;
+.weather-box {
   text-align: center;
 }
 
-.weather {
+.weather-box .temp {
+  display: inline-block;
+  color: #fff;
+  font-size: 102px;
+  font-weight: 900;
+  font-style: italic;
+  text-align: center;
+  padding: 10px 25px;
+  text-shadow: 3px 6px rgba(0, 0, 0, 0.25);
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+  margin: 30px 0px;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+.weather-status {
   color: #fff;
   font-size: 20px;
   font-weight: 300;
   font-style: italic;
   text-align: center;
+  text-shadow: 3px 6px rgba(0, 0, 0, 0.25);
 }
 </style>
