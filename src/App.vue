@@ -4,6 +4,17 @@
       <div class="search-box">
         <input type="text" class="search-bar" placeholder="Search..." />
       </div>
+
+      <div class="weather-wrap">
+        <div class="location-box">
+          <div class="location">Columbus, OH</div>
+          <div class="date">Friday, April 16, 2020</div>
+        </div>
+        <div class="weather-box">
+          <div class="temp">52°F</div>
+          <div class="weather">Rain</div>
+        </div>
+      </div>
     </main>
   </div>
 </template>
@@ -65,9 +76,11 @@ main {
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 15px;
   transition: 0.4s;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
 }
 
 .search-box .search-bar:focus {
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
   background-color: rgba(255, 255, 255, 0.75);
 }
 </style>
