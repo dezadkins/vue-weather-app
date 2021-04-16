@@ -113,6 +113,9 @@ export default {
 #app.warm {
   background-image: url("./assets/warm-bg.jpg");
 }
+#app.clouds {
+  background-image: url("./assets/cloudy-bg.jpg");
+}
 
 body {
   font-family: "montserrat", sans-serif;
