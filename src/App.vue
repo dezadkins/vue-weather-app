@@ -83,4 +83,36 @@ main {
   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
   background-color: rgba(255, 255, 255, 0.75);
 }
+
+.location {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+.date {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+}
+
+.temp {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+}
+
+.weather {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+}
 </style>
