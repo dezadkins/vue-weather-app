@@ -1,6 +1,6 @@
 # vue-weather
 
-![](vue-weather.gif)
+![](./assets/vue-weather.gif)
 
 
 ## Project setup
