@@ -2,7 +2,7 @@
   <div
     id="app"
     :class="
-      typeof weather.main !== 'undefined' && weather.main.temp > 50
+      typeof weather.main !== 'undefined' && weather.main.temp > 60
         ? 'warm'
         : ''
     "
@@ -111,7 +111,7 @@ export default {
 }
 
 #app.warm {
-  background-image: url("./assets/warm-bg.jpg");
+  background-image: url("./assets/clear-bg.jpg");
 }
 #app.clouds {
   background-image: url("./assets/cloudy-bg.jpg");
