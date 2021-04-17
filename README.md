@@ -1,5 +1,8 @@
 # vue-weather
 
+![](src/assets/vue-weather.gif)
+
+
 ## Project setup
 ```
 npm install
