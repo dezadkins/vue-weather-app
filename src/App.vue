@@ -2,7 +2,7 @@
   <div
     id="app"
     :class="
-      typeof weather.main !== 'undefined' && weather.main.temp > 60
+      typeof weather.main !== 'undefined' && weather.main.temp > 55
         ? 'warm'
         : ''
     "
@@ -136,7 +136,7 @@ main {
   margin-bottom: 30px;
 }
 
-.search-box .search-bar {
+.search-bar {
   display: block;
   width: 100%;
   padding: 15px;
@@ -152,12 +152,12 @@ main {
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
 }
 
-.search-box .search-bar:focus {
+.search-bar:focus {
   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
   background-color: rgba(255, 255, 255, 0.75);
 }
 
-.location-box .location {
+.location {
   color: #fff;
   font-size: 32px;
   font-weight: 500;
@@ -165,7 +165,7 @@ main {
   text-shadow: 1px 3px rgba(0, 0, 0, 0.25);
 }
 
-.location-box .date {
+.date {
   color: #fff;
   font-size: 20px;
   font-weight: 300;
@@ -178,7 +178,7 @@ main {
   text-align: center;
 }
 
-.weather-box .temp {
+.temp {
   display: inline-block;
   color: #fff;
   font-size: 102px;
